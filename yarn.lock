@@ -1645,27 +1645,12 @@
     "@vue/compiler-dom" "3.0.6"
     "@vue/shared" "3.0.6"
 
-"@vue/reactivity@3.0.6":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@vue/reactivity/-/reactivity-3.0.6.tgz#7b16f3d5d04cc55028085fff0bb8475cc0e32991"
-  integrity sha512-hX8PnZayNMoljWSYrZW0OclQnRaMoHxvi5eeFVFPDr7+tzBeiftmmozKttxxCLoDxBWX1B4gNc237DIcYU63Lw==
-  dependencies:
-    "@vue/shared" "3.0.6"
-
 "@vue/reactivity@3.0.7":
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/@vue/reactivity/-/reactivity-3.0.7.tgz#e6ccc7bef7fc10b0972e4d974bad71679d3b26ad"
   integrity sha512-FotWcNNaKhqpFZrdgsUOZ1enlJ5lhTt01CNTtLSyK7jYFgZBTuw8vKsEutZKDYZ1XKotOfoeO8N3pZQqmM6Etw==
   dependencies:
     "@vue/shared" "3.0.7"
-
-"@vue/runtime-core@3.0.6":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@vue/runtime-core/-/runtime-core-3.0.6.tgz#d16779b5664593f1d25be677fb1b1968024aa532"
-  integrity sha512-x6N38P0DeMyrHiAxCE/rACHTyydOzlg8IyUIPkSJ4rrSkuJnAtFKQicK6fm8NuD21dwdPr8KcZ4Cn4xaqL1JJg==
-  dependencies:
-    "@vue/reactivity" "3.0.6"
-    "@vue/shared" "3.0.6"
 
 "@vue/runtime-core@3.0.7":
   version "3.0.7"
@@ -1674,15 +1659,6 @@
   dependencies:
     "@vue/reactivity" "3.0.7"
     "@vue/shared" "3.0.7"
-
-"@vue/runtime-dom@3.0.6":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@vue/runtime-dom/-/runtime-dom-3.0.6.tgz#e7d6c61913d871f1f020a9a81b558c8fcbeba8c6"
-  integrity sha512-Y6y4Tak9//VXB2mp2NVQxbwC4a5xsnJpotpo8yBAB3qB3L4v4HQLpqxSkwThRwI6Y6Z7dydX/sgfraqLBE8BWg==
-  dependencies:
-    "@vue/runtime-core" "3.0.6"
-    "@vue/shared" "3.0.6"
-    csstype "^2.6.8"
 
 "@vue/runtime-dom@3.0.7":
   version "3.0.7"
@@ -3671,9 +3647,9 @@ electron-osx-sign@^0.4.11:
     plist "^3.0.1"
 
 electron-to-chromium@^1.3.649:
-  version "1.3.683"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.683.tgz#2c9ab53ff5275cf3dd49278af714d0f8975204f7"
-  integrity sha512-8mFfiAesXdEdE0DhkMKO7W9U6VU/9T3VTWwZ+4g84/YMP4kgwgFtQgUxuu7FUMcvSeKSNhFQNU+WZ68BQTLT5A==
+  version "1.3.684"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.684.tgz#053fbb0a4b2d5c076dfa6e1d8ecd06a3075a558a"
+  integrity sha512-GV/vz2EmmtRSvfGSQ5A0Lucic//IRSDijgL15IgzbBEEnp4rfbxeUSZSlBfmsj7BQvE4sBdgfsvPzLCnp6L21w==
 
 elementtree@0.1.7:
   version "0.1.7"
@@ -8952,16 +8928,7 @@ vue-style-loader@4.1.2:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue@3.0.6:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-3.0.6.tgz#2c16ed4bb66f16d6c6f6eaa3b7d5835a76598049"
-  integrity sha512-fgjbe/+f1EsqG7ZbaFSnxdzQXF2DKoFCdJlPxZZJy9XMtyXS6SY8pGzLi8WYb4zmsPLHvTZz4bHW30kFDk7vfA==
-  dependencies:
-    "@vue/compiler-dom" "3.0.6"
-    "@vue/runtime-dom" "3.0.6"
-    "@vue/shared" "3.0.6"
-
-vue@^3.0.6:
+vue@3.0.6, vue@^3.0.0, vue@^3.0.6:
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.0.7.tgz#8bcff51f8be570f9e4ce8cc5f52e2ab0fe3c74a1"
   integrity sha512-8h4TikD+JabbMK9aRlBO4laG0AtNHRPHynxYgWZ9sq1YUPfzynd9Jeeb27XNyZytC7aCQRX9xe1+TQJuc181Tw==
